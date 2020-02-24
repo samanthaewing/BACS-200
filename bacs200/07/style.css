@@ -8,6 +8,10 @@ h1 {
     background-color: white;
 }
 
+li {
+    color: rosybrown;
+}
+
 a {
     color: red;
 }
