@@ -1,1 +1,22 @@
+body {
+    background-color: whitesmoke;
 
+}
+
+h1 {
+    color: orchid;
+    border: 1px solid gray;
+    background-color: white;
+    font-family: serif;
+    font-style: oblique;
+    font-size: 200%;
+    text-align: center;
+}
+
+li {
+    color: black;
+}
+
+a {
+    color: gray;
+}
