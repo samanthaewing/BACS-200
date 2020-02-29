@@ -1,14 +1,18 @@
 body {
     background-color: whitesmoke;
-    font-family: sans-serif;
+    font-family: serif;
     font-style: normal;
     font-size: 12pt;
     text-align: center;
-    color: indigo;
+    color: black;
+    background-color: gray;
+    border: dashed 1px black;
+    padding: 10px;
+    margin: 50px;
 }
 
 h1 {
-    color: orchid;
+    color: red;
     border: 1px solid gray;
     background-color: white;
     font-family: serif;
@@ -17,10 +21,12 @@ h1 {
     text-align: center;
     border-radius: 10px;
     box-shadow: 2px 2px 5px gray;
+    padding: 10px;
+    margin: 50px;
 }
 
 li {
-    color: mediumorchid;
+    color: orangered;
 }
 
 ul {
@@ -29,5 +35,20 @@ ul {
 }
 
 a {
-    color: gray;
+    color: black;
+}
+
+header {
+    border: solid 3px red;
+    background-color: yellow;
+}
+
+footer {
+    border: solid 3px red;
+    background-color: yellow;
+}
+
+main {
+    border: solid 3px red;
+    background-color: white;
 }

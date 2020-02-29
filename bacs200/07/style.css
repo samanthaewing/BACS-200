@@ -1,5 +1,6 @@
 body {
     background-color: whitesmoke;
+    border: solid 3px gray;
     font-family: sans-serif;
     font-style: normal;
     font-size: 12pt;
@@ -9,7 +10,9 @@ body {
 
 h1 {
     color: orchid;
-    border: 1px solid gray;
+    border: dashed 1px gray;
+    padding: 10px;
+    margin: 50px;
     background-color: white;
     font-family: serif;
     font-weight: bold;
