@@ -1,6 +1,10 @@
 body {
     background-color: whitesmoke;
-
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 12pt;
+    text-align: center;
+    color: indigo;
 }
 
 h1 {
@@ -8,13 +12,20 @@ h1 {
     border: 1px solid gray;
     background-color: white;
     font-family: serif;
-    font-style: oblique;
+    font-weight: bold;
     font-size: 200%;
     text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px gray;
 }
 
 li {
-    color: black;
+    color: mediumorchid;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
 }
 
 a {
