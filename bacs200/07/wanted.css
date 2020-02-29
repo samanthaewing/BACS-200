@@ -40,12 +40,12 @@ a {
 
 header {
     border: solid 3px red;
-    background-color: yellow;
+    background-color: lightblue;
 }
 
 footer {
     border: solid 3px red;
-    background-color: yellow;
+    background-color: lightblue;
 }
 
 main {
