@@ -113,16 +113,18 @@ img {
     margin-left: 50px;
     padding: 0px;
     clear float: right;
-    border:1px solid dimgray;
+    border: 1px solid dimgray;
 }
 
-a{
+a {
     color: darkorange;
 }
+
 ul {
     text-align: center;
     list-style-position: inside;
 }
+
 li {
     margin: 5px 1.5em;
     color: black;
@@ -145,4 +147,15 @@ pre {
 textarea {
     width: 90%;
     margin: auto;
+}
+
+aside {
+    background-color: darkslategray;
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: white;
+    border: 2px solid white;
+    float: right;
+    width: 20%;
 }
