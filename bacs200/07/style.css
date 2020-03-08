@@ -6,6 +6,8 @@ body {
     font-size: 12pt;
     text-align: center;
     color: indigo;
+    padding: 25px;
+    margin: 50px;
 }
 
 h1 {
@@ -21,6 +23,8 @@ h1 {
     border-radius: 20px;
     box-shadow: 2px 2px 5px gray;
 }
+
+
 
 li {
     color: mediumorchid;
