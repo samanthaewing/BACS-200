@@ -11352,7 +11352,18 @@ a.text-dark:hover {
 
     img,
     tr {
-        page-break-inside: avoid
+        page-break-inside: avoid;
+    }
+
+    aside {
+        background-color: darkslategray;
+        text-align: center;
+        font-size: 50px;
+        font-family: sans-serif;
+        color: white;
+        border: 2px solid white;
+        float: right;
+        width: 20%;
     }
 
     h2,
