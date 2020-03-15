@@ -69,7 +69,8 @@ body {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-color: #fff
+    background-color: #fff;
+    padding-left: 1.5em;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -388,8 +389,11 @@ h6 {
 
 .h1,
 h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: deeppink;
+    background-color: white;
+    background-image: url(images/closet.png);
+    padding-bottom: 1.5em;
 }
 
 .h2,
@@ -505,7 +509,7 @@ mark {
 
 .img-fluid {
     max-width: 100%;
-    height: auto
+    height: auto;
 }
 
 .img-thumbnail {
@@ -4658,7 +4662,7 @@ input[type=submit].btn-block {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    padding-left: 0;
+    padding-left: 2;
     margin-bottom: 0;
     list-style: none
 }
@@ -11355,7 +11359,8 @@ a.text-dark:hover {
     h3,
     p {
         orphans: 3;
-        widows: 3
+        widows: 3;
+        margin: 0.5em 3em;
     }
 
     h2,
@@ -11368,7 +11373,7 @@ a.text-dark:hover {
     }
 
     body {
-        min-width: 992px !important
+        min-width: 992px !important;
     }
 
     .container {
