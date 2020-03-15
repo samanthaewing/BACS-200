@@ -6,88 +6,138 @@
     <title>Bootstrap</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="leannascloset.css">
+    <link rel="stylesheet" href="carousel.css">
 </head>
-
-<body>
-    <h1></h1>
-    <p>
-        <font size="+4">
-            <center>Leanna's Closet | Women 2 Women</center>
-        </font>
-    </p>
-
-    <ul class="nav nav-tabs" id="myTab" role="tablist">
-        <li class="nav-item">
-            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Our Mission</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Donate</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact Us</a>
-        </li>
-    </ul>
-    <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-            <h2>The Mission</h2>
-            <center><img class="img-rounded" src="images/W2W_logoRT.png" alt="Samantha Ewing" width="300"></center>
-            <p>
-                <font size="+3">
-                    <center><span style="color: deeppink;">
-
-                            Leanna’s Closet is a non-profit project of Weld Women2Women that is dedicated to assisting women in need with work related clothing for job interviews and first days on the job.
-                        </span></center>
-                </font>
-            </p>
-            <p>Leanna always was dressed in beautiful clothing and accessories. After she passed away, her family and friends discovered that there was need for a community closet for women who were trying to better themselves, specifically for entry or re-entry into the workforce.</p>
-            <p>Leanna’s Closet was born from the desire to meet that need and to create a legacy. After 10 years, in 2012, unfortunately Leanna’s Closet closed its doors due the lack of a stable location.</p>
-            <p>Five years later, in May 2017, a small group of community women saw the need and decided to re-open Leanna’s Closet under the same mission; helping women build a better life themselves.</p>
-            <p>With the help of Greeley Area Habitat for Humanity ReStore, Leanna’s Closet is now in a stable location in the back of their store located at 2400 29th Street in Greeley, Colorado.</p>
-            <p>Leanna’s Closet offers a one-time gift of three outfits to any woman who provides proof of residency in Weld County. No voucher is required.</p>
-            <p>Working under the umbrella of Weld Women2Women seems to be a perfect partnership. W2W has provided immediate one-time financial assistance to local women through a referral and application system in cooperation of other 501©3 organizations.</p>
-            <p>Partnering with W2W has been an easy connection to make as both charities can quickly provide their services in a minimal amount of time, resulting in making a positive local impact immediately.</p>
+<main role="main">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/Untitled%20design.png">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+                    <rect width="100%" height="100%" fill="#777" /></svg>
+                <div class="container">
+                    <div class="carousel-caption text-left">
+                        <h1>Donation Saturdays</h1>
+                        <p color: black>Donations are accepted on the <b>first Saturday</b> of every month. We accept any professional apparel that would be suitable during an interview.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/Untitled%20design%20(1).png">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+                    <rect width="100%" height="100%" fill="#777" /></svg>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>We Always Need Volunteers!</h1>
+                        <p>Please sign up on our Facebook Page or email us at closetvolunteers@gmail.com</p>
+                        <p><a class="btn btn-lg btn-primary" href="https://www.facebook.com/leannasclosetgreeley/" role="button">Facebook</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/Highlight%20your%20personality.png">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+                    <rect width="100%" height="100%" fill="#777" /></svg>
+                <div class="container">
+                    <div class="carousel-caption text-right">
+                        <h1>Step up Sales</h1>
+                        <p>Open to the public to shop from 10AM-2PM on 3/28, 5/30, 7/25, 9/26, & 11/21</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-            <h2>Donate</h2>
-            <center><img class="img-rounded" src="images/leannas-closet-250x790.jpg" alt="Leannas Closet" width="300"></center>
-            <p>
-                <font size="+3">
-                    <center><span style="color: deeppink;">
-                            Give a Hand Up!
-                        </span></center>
-                </font>
-            </p>
-            <p>Whether you’re a woman who has received help somewhere along your path to success or a woman who is thankful you’ve never experienced a financial crisis, you can help us continue to help Weld women in crisis.</p>
-        </div>
-        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-            <h2>Contact Us</h2><br>
-            <p><b>CONTACT INFO:</b><br>
-                MAILING: P.O. BOX 336912, Greeley CO 80633<br>
-                EMAIL: leannasclosetgreeley@gmail.com<br>
-                FACEBOOK: Leanna’s Closet<br>
-                PHONE: (970) 330-7851</p>
-            <p><b>
-                    CURRENT BOARD:</b></p>
-            <ul>
-                <li>Deena McBain, Chair</li>
-                <li>Carrie Strauch, Treasurer</li>
-                <li>Alexia Peake Inhulsen</li>
-                <li>Alyssa Camp</li>
-                <li>Becky Broghammer</li>
-                <li>Christine Ainsworth</li>
-                <li>Donna Ivie</li>
-                <li>Maggie Rainwater</li>
-                <li>Jo Eakins
-            </ul>
-
-        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
 
-    <footer>
-        <center>
-            <a href="https://weldw2w.org/leannas-closet/">© 2016-2020 Women2Women, a 501(c)(3) corporation. All Rights Reserved.</a></center>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body></html>
+    <body>
+        <h1>
+            <center>Leanna's Closet | Women 2 Women</center>
+        </h1>
+
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Our Mission</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Donate</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact Us</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <h2>The Mission</h2>
+                <center><img class="img-rounded" src="images/W2W_logoRT.png" alt="Women2Women" width="300"></center>
+                <p>
+                    <font size="+3">
+                        <center><span style="color: deeppink;">
+
+                                Leanna’s Closet is a non-profit project of Weld Women2Women that is dedicated to assisting women in need with work related clothing for job interviews and first days on the job.
+                            </span></center>
+                    </font>
+                </p>
+                <p>Leanna always was dressed in beautiful clothing and accessories. After she passed away, her family and friends discovered that there was need for a community closet for women who were trying to better themselves, specifically for entry or re-entry into the workforce.</p>
+                <p>Leanna’s Closet was born from the desire to meet that need and to create a legacy. After 10 years, in 2012, unfortunately Leanna’s Closet closed its doors due the lack of a stable location.</p>
+                <p>Five years later, in May 2017, a small group of community women saw the need and decided to re-open Leanna’s Closet under the same mission; helping women build a better life themselves.</p>
+                <p>With the help of Greeley Area Habitat for Humanity ReStore, Leanna’s Closet is now in a stable location in the back of their store located at 2400 29th Street in Greeley, Colorado.</p>
+                <p>Leanna’s Closet offers a one-time gift of three outfits to any woman who provides proof of residency in Weld County. No voucher is required.</p>
+                <p>Working under the umbrella of Weld Women2Women seems to be a perfect partnership. W2W has provided immediate one-time financial assistance to local women through a referral and application system in cooperation of other 501©3 organizations.</p>
+                <p>Partnering with W2W has been an easy connection to make as both charities can quickly provide their services in a minimal amount of time, resulting in making a positive local impact immediately.</p>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <h2>Donate</h2>
+                <center><img class="img-rounded" src="images/leannas-closet-250x790.jpg" alt="Leannas Closet" width="300"></center>
+                <p>
+                    <font size="+3">
+                        <center><span style="color: deeppink;">
+                                Give a Hand Up!
+                            </span></center>
+                    </font>
+                </p>
+                <p>Whether you’re a woman who has received help somewhere along your path to success or a woman who is thankful you’ve never experienced a financial crisis, you can help us continue to help Weld women in crisis.</p>
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <h2>Contact Us</h2><br>
+                <p><b>CONTACT INFO:</b><br>
+                    MAILING: P.O. BOX 336912, Greeley CO 80633<br>
+                    EMAIL: leannasclosetgreeley@gmail.com<br>
+                    FACEBOOK: Leanna’s Closet<br>
+                    PHONE: (970) 330-7851</p>
+                <p><b>
+                        CURRENT BOARD:</b></p>
+                <ul>
+                    <li>Deena McBain, Chair</li>
+                    <li>Carrie Strauch, Treasurer</li>
+                    <li>Alexia Peake Inhulsen</li>
+                    <li>Alyssa Camp</li>
+                    <li>Becky Broghammer</li>
+                    <li>Christine Ainsworth</li>
+                    <li>Donna Ivie</li>
+                    <li>Maggie Rainwater</li>
+                    <li>Jo Eakins
+                </ul>
+
+            </div>
+        </div>
+
+        <footer>
+            <center>
+                <a href="https://weldw2w.org/leannas-closet/">© 2016-2020 Women2Women, a 501(c)(3) corporation. All Rights Reserved.</a></center>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body></html>
