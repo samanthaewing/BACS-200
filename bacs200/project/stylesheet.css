@@ -95,7 +95,7 @@ h6 {
 
 p {
     margin-top: 0;
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
 }
 
 abbr[data-original-title],
@@ -208,7 +208,15 @@ figure {
 
 img {
     vertical-align: middle;
+
     border-style: none
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
 }
 
 svg {
@@ -392,6 +400,7 @@ h1 {
     font-size: 3rem;
     color: blue;
     background-color: white;
+    text-align: center;
 
 }
 
