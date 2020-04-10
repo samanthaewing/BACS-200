@@ -8,6 +8,38 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="carousel.css">
 </head>
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Summit Youth Leadership</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">About<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#bio">Bio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#speakers">Speakers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#events">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#registration">Registration</a>
+                </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+</header>
+
 <main>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -60,72 +92,28 @@
         </a>
     </div>
 
-    <h1>
-        Summit Youth Leadership
-    </h1>
-
-    <ul class="nav nav-tabs" id="myTab" role="tablist">
-        <li class="nav-item">
-            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="bio-tab" data-toggle="tab" href="#bio" role="tab" aria-controls="bio" aria-selected="false">Bio</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="speakers-tab" data-toggle="tab" href="#speakers" role="tab" aria-controls="speakers" aria-selected="false">Speakers</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="events-tab" data-toggle="tab" href="#events" role="tab" aria-controls="events" aria-selected="false">Upcoming Events</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="registration-tab" data-toggle="tab" href="#registration" role="tab" aria-controls="registration" aria-selected="false">Register Now</a>
-        </li>
-    </ul>
-    <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-            <h2>The Mission</h2>
-            <img src="images/placeholderforlogo.png" alt="Mosaic" class="img-rounded, center" width="300">
-            <p>
-                <font size="+3">
-                    <center><span style="color: navy;">
-
-                            Our mission is to inspire, motivate, and empower young people to seek out, identify, and cultivate their greatness within so that they may find their calling. To raise up young leaders that choose to lead the charge for next level living and ignite a fire of service and selflessness for others within their community.
-                        </span></center>
-                </font>
-            </p>
-
-        </div>
-        <div class="tab-pane fade" id="bio" role="tabpanel" aria-labelledby="bio-tab">
-            <h2>Biography</h2>
-            <center><img class="img-rounded" src="images/rayandcaiti.jpg" alt="Ray and Caiti" width="300"></center>
-            <p>
-                <font size="+3">
-                    <center><span style="color: navy;">
-                            Ray and Caiti Mondragon
-                        </span></center>
-                </font>
-            </p>
-            <p>Ray and Caiti have been a part of outreach to youth for the past 13 years and their passion for young people, at both the middle and high school ages, has always been a focal point of their journey through ministry as well. Ray and Caiti each hold Bachelor's Degrees from the University of Northern Colorado; Ray in Communication Studies with a minor in Business Administration, Caiti in English Liberal Arts with a minor in Business Administration. They love spending time with their three children, Emaleigh, Elijah, and Eydan. Together they love: camping, watching movies, and generally just being silly. Ray also has an unhealthy obsession with the Back to the Future movies and loves riding motorcycles, while Caiti is probably the most talented cake designer you’ll ever meet, even while doing the moonwalk across the kitchen floor. Outside of Mosaic Ray works full-time as a Marketing and Sales Ninja for the motorcycle and powersports industry, and Caiti is a Paraprofessional at the local Elementary School.</p>
-            <p>MAILING: mailing address here<br>
-                EMAIL: ray.mondragon@gmail.com<br>
-                FACEBOOK: facebook.com/ray.mondragon<br>
-                PHONE: (000) 999-1111</p>
-        </div>
-        <div class="tab-pane fade" id="speakers" role="tabpanel" aria-labelledby="speakers-tab">
-            <h2>Speakers</h2><br>
-            <p><b>Speaker Bios:</b><br>
-                <p>Info to come...</p>
-        </div>
-        <div class="tab-pane fade" id="events" role="tabpanel" aria-labelledby="events-tab">
-            <h2>Upcoming Events</h2><br>
-            <p><b>List of Events</b><br>
-                <p>Info to come...</p>
-        </div>
-        <div class="tab-pane fade" id="registration" role="tabpanel" aria-labelledby="registration-tab">
-            <h2>Register Now</h2><br>
-            <p><b>Registration Link</b><br>
-                <p>Info to come...</p>
-        </div>
+    <div class="container marketing">
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                <h2>Heading</h2>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                <h2>Heading</h2>
+                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                <h2>Heading</h2>
+                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
 
         <footer>
             <center>
