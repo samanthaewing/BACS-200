@@ -9,6 +9,67 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="carousel.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Style inputs */
+        input[type=text],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #4CAF50;
+        }
+
+        /* Style the container/contact section */
+        .container {
+            border-radius: 5px;
+            background-color: transparent;
+            padding: 10px;
+        }
+
+        /* Create two columns that float next to eachother */
+        .column {
+            float: left;
+            width: 50%;
+            margin-top: 6px;
+            padding: 20px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+
+            .column,
+            input[type=submit] {
+                width: 100%;
+                margin-top: 0;
+            }
+        }
+    </style>
 </head>
 
 <header>
@@ -41,26 +102,49 @@
 
 <body>
     <hr>
-    <p>
-        <img src="images/RayandCaitiwedding.jpg" alt="Ray & Caiti" style="float:left;width:299px;height:300px;">
-    </p>
-    <p>
-        <img src="images/RayandCaitiFam.jpg" alt="Family" style="float:left;width:299px;height:300px;">
-    </p>
-    <p>
-        <img src="images/Raysuit.jpg" alt="Ray Suit" style="float:left;width:299px;height:300px;">
-    </p>
-    <p>
-        <img src="images/Kids.jpg" alt="Kids" style="float:left;width:299px;height:300px;">
-    </p>
-    <p>
-        <img src="images/RayandCaitiHawaii.jpg" alt="Ray and Caiti Hawaii" style="float:left;width:299px; height:300px" ;>
-    </p>
-
     <h1>Ray and Caiti Mondragon Biography</h1>
+    <hr>
+    <p>
+        <img src="images/RayandCaitiwedding.jpg" alt="Ray & Caiti" style="float:left;width:285px;height:285px;">
+    </p>
+    <p>
+        <img src="images/RayandCaitiFam.jpg" alt="Family" style="float:left;width:285px;height:285px;">
+    </p>
+    <p>
+        <img src="images/Raysuit.jpg" alt="Ray Suit" style="float:left;width:285px;height:285px;">
+    </p>
+    <p>
+        <img src="images/Kids.jpg" alt="Kids" style="float:left;width:285px;height:285px;">
+    </p>
+    <p>
+        <img src="images/RayandCaitiHawaii.jpg" alt="Ray and Caiti Hawaii" style="float:left;width:285px; height:285px" ;>
+    </p>
 
-    <p class="lead text-muted">Ray and Caiti have been a part of outreach to youth for the past 13 years and their passion for young people, at both the middle and high school ages, has always been a focal point of their journey through ministry as well. Ray and Caiti each hold Bachelor's Degrees from the University of Northern Colorado; Ray in Communication Studies with a minor in Business Administration, Caiti in English Liberal Arts with a minor in Business Administration. They love spending time with their three children, Emaleigh, Elijah, and Eydan. Together they love: camping, watching movies, and generally just being silly. Ray also has an unhealthy obsession with the Back to the Future movies and loves riding motorcycles, while Caiti is probably the most talented cake designer you’ll ever meet, even while doing the moonwalk across the kitchen floor. Outside of Mosaic Ray works full-time as a Marketing and Sales Ninja for the motorcycle and powersports industry, and Caiti is a Paraprofessional at the local Elementary School.</p>
-</body></html>
+    <hr>
+    <p style="clear:left">Ray and Caiti have been a part of outreach to youth for the past 13 years and their passion for young people, at both the middle and high school ages, has always been a focal point of their journey through ministry as well. Ray and Caiti each hold Bachelor's Degrees from the University of Northern Colorado; Ray in Communication Studies with a minor in Business Administration, Caiti in English Liberal Arts with a minor in Business Administration. They love spending time with their three children, Emaleigh, Elijah, and Eydan. Together they love: camping, watching movies, and generally just being silly. Ray also has an unhealthy obsession with the Back to the Future movies and loves riding motorcycles, while Caiti is probably the most talented cake designer you’ll ever meet, even while doing the moonwalk across the kitchen floor. Outside of Mosaic Ray works full-time as a Marketing and Sales Ninja for the motorcycle and powersports industry, and Caiti is a Paraprofessional at the local Elementary School.</p>
+    <div class="container">
+        <div style="text-align:center">
+            <h2>Contact Us</h2>
+            <p>Swing by for a cup of coffee, or leave us a message:</p>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="images/rayandcaiti.jpg" style="width:100%">
+            </div>
+            <div class="column">
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:220px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
 <div class="footer">
 
     <!-- Add font awesome icons -->
@@ -69,7 +153,7 @@
         <a href="https://www.instagram.com/mrsmomdragon/" class="fa fa-instagram"></a>
 
         <p><a href="https://greeleymosaic.com/">© 2020 SummitYouthLeadership. All Rights Reserved.</a></p>
-</div>
+</div></html>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

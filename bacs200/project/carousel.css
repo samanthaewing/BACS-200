@@ -6,6 +6,7 @@ body {
     padding-top: 3rem;
     padding-bottom: 3rem;
     color: #5a5a5a;
+    background-color: aliceblue;
 }
 
 
@@ -39,7 +40,6 @@ body {
     height: 37rem;
 
 }
-
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -86,10 +86,11 @@ body {
 
     /* Bump up size of carousel content */
     .carousel-caption p {
-        margin-bottom: 1.25rem;
         font-size: 2rem;
         line-height: 1.4;
-        color: antiquewhite;
+        font-weight: bolder;
+        font-family: "Montserrat", sans-serif;
+        color: aliceblue;
     }
 
     .featurette-heading {
