@@ -11657,7 +11657,7 @@ html {
     /* Black w/opacity/see-through */
     color: black;
 
-    border: 10px solid #f1f1f1;
+    border: 10px solid black;
     position: absolute;
     top: 95%;
     left: 50%;
