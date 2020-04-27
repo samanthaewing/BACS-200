@@ -69,6 +69,7 @@
                 margin-top: 0;
             }
         }
+
     </style>
 </head>
 
@@ -132,13 +133,15 @@
                 <img src="images/rayandcaiti.jpg" style="width:100%">
             </div>
             <div class="column">
-                <form action="/action_page.php">
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <form action="contactform.php">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Your name..">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Your last name..">
                     <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:220px"></textarea>
+                    <input type="text" id="subject" name="subject" placeholder="Subject">
+                    <label for="subject">Message</label>
+                    <textarea id="message" name="message" placeholder="Write something.." style="height:220px"></textarea>
                     <input type="submit" value="Submit">
                 </form>
             </div>
@@ -153,7 +156,9 @@
         <a href="https://www.instagram.com/mrsmomdragon/" class="fa fa-instagram"></a>
 
         <p><a href="https://greeleymosaic.com/">© 2020 SummitYouthLeadership. All Rights Reserved.</a></p>
-</div></html>
+</div>
+
+</html>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
