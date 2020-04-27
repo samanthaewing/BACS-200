@@ -7,8 +7,8 @@ if(isset($_POST['submit']))
     $message=$_POST['message'];
 
 $mailTo="ewin9631@bears.unco.edu";
-$headers="From: Summit Youth Leadership".$mail;
-$txt="You have received an email from ".$name."./n/n".$message;
+$headers="From: Summit Youth Leadership".$email;
+$txt="You have received an email from ".$fullname.".\n\n".$message;
 
 
 mail($mailTo, $subject, $txt, $headers);
